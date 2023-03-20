@@ -7,6 +7,6 @@ spec:
   clusterName: ams-cluster
   git:
     syncRepo: git@github.com:fafroz/gke-anthos-config-demo.git  
-    syncBranch: main
+    syncBranch: dev
     secretType: ssh
-#     policyDir: "hello-namespace/config-root"
+    policyDir: "Default"
