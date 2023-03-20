@@ -4,9 +4,9 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  clusterName: my-cluster
+  clusterName: acm-cluster-secure
   git:
-    syncRepo: git@github.com:<GITHUB-USERNAME>/anthos-config-management-samples.git
+    syncRepo: git@github.com:fafroz/gke-anthos-config-demo.git  
     syncBranch: main
     secretType: ssh
     policyDir: "hello-namespace/config-root"
