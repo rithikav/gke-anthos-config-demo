@@ -9,4 +9,4 @@ spec:
     syncRepo: git@github.com:fafroz/gke-anthos-config-demo.git  
     syncBranch: dev
     secretType: ssh
-    policyDir: "Default"
+    policyDir: "cluster/namespaces"
