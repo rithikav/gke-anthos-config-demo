@@ -4,7 +4,7 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  clusterName: acm-cluster
+  clusterName: ams-cluster
   git:
     syncRepo: git@github.com:fafroz/gke-anthos-config-demo.git  
     syncBranch: main
