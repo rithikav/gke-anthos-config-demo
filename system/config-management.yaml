@@ -9,4 +9,4 @@ spec:
     syncRepo: git@github.com:fafroz/gke-anthos-config-demo.git  
     syncBranch: main
     secretType: ssh
-    policyDir: "hello-namespace/config-root"
+#     policyDir: "hello-namespace/config-root"
